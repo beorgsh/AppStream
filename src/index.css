@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --font-sans: Poppins, sans-serif;
+  --animate-fade-in: fadeIn 0.5s ease-in-out var(--animation-delay, 0) forwards;
+}
+
+html {
+  scrollbar-gutter: stable;
+}
